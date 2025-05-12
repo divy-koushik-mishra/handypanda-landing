@@ -147,11 +147,11 @@ const ProductCategories: React.FC = () => {
       <div className="container mx-auto">
         <div className="text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-neutral-content">
-            Our <span className="text-primary">Services</span>
+            Our <span className="text-secondary">Services</span>
           </h2>
           <div className="flex items-center justify-center mt-4">
             <div className="h-1 w-12 bg-secondary rounded-full"></div>
-            <div className="h-1 w-24 bg-primary mx-2 rounded-full"></div>
+            <div className="h-1 w-24 bg-secondary mx-2 rounded-full"></div>
             <div className="h-1 w-12 bg-secondary rounded-full"></div>
           </div>
           <p className="mt-6 text-neutral-content/80 max-w-2xl mx-auto">
