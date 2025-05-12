@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -42,7 +42,7 @@ const NavBar = () => {
                   key={item.label}
                   href={item.href}
                   className={`text-neutral-content hover:text-secondary px-2 py-1 text-lg font-medium transition duration-150 ease-in-out
-                    ${item.label === "Get in touch" ? "text-white bg-secondary hover:bg-secondary/90 px-4 py-2 rounded-md" : ""}
+                    ${item.label === "Get in touch" ? "text-white bg-secondary hover:bg-secondary/90 hover:text-white px-4 py-2 rounded-md" : ""}
                   `}
                 >
                   {item.label}

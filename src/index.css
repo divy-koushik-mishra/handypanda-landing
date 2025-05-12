@@ -35,15 +35,18 @@ Black Marlin	#3d2f1b	✅ Neutral content/text */
     src: url('./assets/fonts/MYRIADPRO-BOLD.OTF') format('opentype');
     font-weight: 700;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'MyriadPro';
     src: url('./assets/fonts/MYRIADPRO-SEMIBOLD.OTF') format('opentype');
     font-weight: 600;
     font-style: normal;
-  }
-  
+}
+
+.font-myriad {
+    font-family: 'MyriadPro', sans-serif;
+}
 
 
 
