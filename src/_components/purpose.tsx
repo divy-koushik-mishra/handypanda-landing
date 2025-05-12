@@ -8,26 +8,26 @@ const FeatureSection: React.FC = () => {
   const featurePoints = [
     {
       id: 1,
-      title: "Professional Services",
-      description: "Expert handymen with years of experience in plumbing, electrical, and general repairs.",
+      title: "Easy to use",
+      description: "Send us a list, call or text - place an order however you like.",
       imageSrc: "/images/professional-services.jpg" // Replace with actual image path
     },
     {
       id: 2,
-      title: "Quality Materials",
-      description: "We only use premium materials and parts, ensuring long-lasting repairs and installations.",
+      title: "Reliable 60-min delivery",
+      description: "Receive your materials before your construction specialists leave",
       imageSrc: "/images/quality-materials.jpg" // Replace with actual image path
     },
     {
       id: 3,
-      title: "Fast Response Time",
-      description: "Get quick service with same-day appointments for urgent repair needs.",
+      title: "Fair & transparent prices",
+      description: "Find the best rates in your area, across all renovation segments",
       imageSrc: "/images/fast-response.jpg" // Replace with actual image path
     },
     {
       id: 4,
-      title: "Satisfaction Guarantee",
-      description: "Our work is backed by a 100% satisfaction guarantee for your peace of mind.",
+      title: "Great quality",
+      description: "Get materials from reliable suppliers, verified by our in-house experts",
       imageSrc: "/images/satisfaction-guarantee.jpg" // Replace with actual image path
     }
   ];
@@ -64,7 +64,7 @@ const FeatureSection: React.FC = () => {
     <section className="py-16 px-4 bg-custom-white">
       <div className="container mx-auto">
         <h2 className="text-3xl md:text-4xl font-display font-bold text-neutral-content text-center mb-12">
-          Top {featurePoints.length} Reasons to Choose HandyPanda
+        Why you should try us out
         </h2>
         
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">

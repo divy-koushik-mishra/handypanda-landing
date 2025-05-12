@@ -81,7 +81,7 @@ const ProductCategories: React.FC = () => {
     }, 5000);
     
     return () => clearInterval(interval);
-  }, []);
+  });
 
   // Calculate visible slides based on screen size
   const getVisibleCount = () => {

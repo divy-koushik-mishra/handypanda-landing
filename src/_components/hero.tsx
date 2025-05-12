@@ -14,11 +14,9 @@ const HeroWithContactForm: React.FC = () => {
     if (typedRef.current) {
       const typed = new Typed(typedRef.current, {
         strings: [
-          'Professional Home Repairs',
-          'Expert Plumbing Services',
-          'Quality Electrical Work',
-          'Reliable Handyman Solutions',
-          'Affordable Home Maintenance'
+          'Transparent materials prices',
+          'Reliable 60-min delivery',
+          'Exceptional customer service',
         ],
         typeSpeed: 50,
         backSpeed: 30,
@@ -44,7 +42,7 @@ const HeroWithContactForm: React.FC = () => {
       return;
     }
     
-    const phoneNumber = '917482941809'; // Your phone number with country code (no + sign)
+    const phoneNumber = import.meta.env.VITE_WHATSAPP_NUMBER;
     const message = `Hi HandyPanda! My name is ${name}. I need help with: ${purpose}`;
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
@@ -71,12 +69,12 @@ const HeroWithContactForm: React.FC = () => {
               <span ref={typedRef}></span>
             </h1>
             <h2 className="text-3xl md:text-4xl font-display font-semibold mb-6 text-neutral-content">
-              Bringing Quality Craftsmanship to Your Doorstep
+            Here’s the one-stop shop for all your home renovation requirements
             </h2>
             
             <p className="text-lg md:text-xl mb-8 text-neutral-content">
-              HandyPanda connects you with skilled professionals for all your home maintenance 
-              and repair needs. From plumbing to electrical work, we've got you covered.
+            Home renovation is a huge pain. Endless market runs, shady quality, and "stock’s run out” excuses — we get it.
+            HandyPanda delivers top-notch construction and renovation materials to your doorstep in under 60 minutes. 
             </p>
           </div>
           
