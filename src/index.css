@@ -1,1 +1,49 @@
 @import "tailwindcss";
+
+/* Name	HEX	Suggested Role
+Tulip Tree	#eba93c	✅ Primary (CTA, brand highlights)
+Bourbon	#bb651e	✅ Secondary (buttons, hovers, headers)
+Champagne	#fbf2d1	✅ Neutral background
+Black Marlin	#3d2f1b	✅ Neutral content/text */
+
+@theme {
+    --color-neutral-background: #fbf2d1;
+    --color-neutral-content: #3d2f1b;
+    --color-primary: #eba93c;
+    --color-secondary: #bb651e;
+    --color-custom-white: #fefbf6;
+    --font-display: 'MyriadPro';
+}
+
+/* use custom fonts stored in /assets/fonts */
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('./assets/fonts/MYRIADPRO-REGULAR.OTF') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('./assets/fonts/MyriadPro-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('./assets/fonts/MYRIADPRO-BOLD.OTF') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'MyriadPro';
+    src: url('./assets/fonts/MYRIADPRO-SEMIBOLD.OTF') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+
+
+
