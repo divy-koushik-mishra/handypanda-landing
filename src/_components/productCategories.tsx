@@ -134,7 +134,7 @@ const ProductCategories: React.FC = () => {
       <div className="container mx-auto">
         <div className="text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-neutral-content">
-            Our <span className="text-secondary">Services</span>
+            We <span className="text-secondary">Offer</span>
           </h2>
           <div className="flex items-center justify-center mt-4">
             <div className="h-1 w-12 bg-secondary rounded-full"></div>
