@@ -111,7 +111,7 @@ const HeroWithContactForm: React.FC = () => {
                   id="purpose"
                   value={purpose}
                   onChange={(e) => setPurpose(e.target.value)}
-                  placeholder="I need help with fixing my kitchen sink..."
+                  placeholder="I need help with..."
                   rows={4}
                   className="w-full px-4 py-3 rounded-md border border-neutral-content/20 focus:border-primary focus:ring-2 focus:ring-primary/30 outline-none transition-all resize-none"
                 />

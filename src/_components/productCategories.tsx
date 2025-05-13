@@ -9,7 +9,7 @@ const ProductCategories: React.FC = () => {
     {
       id: 1,
       title: "Electrical Services",
-      image: "/images/electrical.jpg", // Replace with actual image path
+      image: "/images/3.jpeg", // Replace with actual image path
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M18 16.236c1.913-1.29 3-3.418 3-5.736 0-3.87-3.582-7-8-7s-8 3.13-8 7c0 2.318 1.087 4.446 3 5.736"></path>
@@ -21,7 +21,7 @@ const ProductCategories: React.FC = () => {
     {
       id: 2,
       title: "Plumbing Services",
-      image: "/images/plumbing.jpg", // Replace with actual image path
+      image: "/images/4.jpeg", // Replace with actual image path
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M12 22a7 7 0 0 0 7-7c0-7-7-13-7-13S5 8 5 15a7 7 0 0 0 7 7Z"></path>
@@ -30,8 +30,8 @@ const ProductCategories: React.FC = () => {
     },
     {
       id: 3,
-      title: "Hardware Repairs",
-      image: "/images/hardware.jpg", // Replace with actual image path
+      title: "Civil",
+      image: "/images/2.jpeg", // Replace with actual image path
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
@@ -40,8 +40,8 @@ const ProductCategories: React.FC = () => {
     },
     {
       id: 4,
-      title: "Painting Services",
-      image: "/images/painting.jpg", // Replace with actual image path
+      title: "Interiors",
+      image: "/images/1.jpeg", // Replace with actual image path
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="m19 9-7 7-7-7"></path>
@@ -49,19 +49,6 @@ const ProductCategories: React.FC = () => {
         </svg>
       )
     },
-    {
-      id: 5,
-      title: "Furniture Assembly",
-      image: "/images/furniture.jpg", // Replace with actual image path
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
-          <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"></path>
-          <path d="M22 12H2"></path>
-          <path d="M7 12v-2a5 5 0 0 1 10 0v2"></path>
-        </svg>
-      )
-    }
   ];
 
   // Next slide

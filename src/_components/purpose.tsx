@@ -10,25 +10,25 @@ const FeatureSection: React.FC = () => {
       id: 1,
       title: "Easy to use",
       description: "Send us a list, call or text - place an order however you like.",
-      imageSrc: "/images/professional-services.jpg" // Replace with actual image path
+      imageSrc: "/images/8.jpeg" // Replace with actual image path
     },
     {
       id: 2,
       title: "Reliable 60-min delivery",
       description: "Receive your materials before your construction specialists leave",
-      imageSrc: "/images/quality-materials.jpg" // Replace with actual image path
+      imageSrc: "/images/7.jpeg" // Replace with actual image path
     },
     {
       id: 3,
       title: "Fair & transparent prices",
       description: "Find the best rates in your area, across all renovation segments",
-      imageSrc: "/images/fast-response.jpg" // Replace with actual image path
+      imageSrc: "/images/6.jpeg" // Replace with actual image path
     },
     {
       id: 4,
       title: "Great quality",
       description: "Get materials from reliable suppliers, verified by our in-house experts",
-      imageSrc: "/images/satisfaction-guarantee.jpg" // Replace with actual image path
+      imageSrc: "/images/5.jpeg" // Replace with actual image path
     }
   ];
 
