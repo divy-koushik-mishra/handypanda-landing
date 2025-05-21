@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
               </h1>
             </div>
             <p className="mb-6">
-              HandyPanda is the largest online destination for handymen and suppliers.
+             One stop shop for all your home renovation requirements.
             </p>
 
             {/* Social Links */}

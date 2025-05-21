@@ -4,18 +4,18 @@ const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   
   const navMenuItems = [
-    {
-      label: "Home",
-      href: "/",
-    },
-    {
-      label: "About",
-      href: "#about",
-    },
-    {
-      label: "Services",
-      href: "#services",
-    },
+    // {
+    //   label: "Home",
+    //   href: "/",
+    // },
+  //   {
+  //     label: "About",
+  //     href: "#about",
+  //   },
+  //   {
+  //     label: "Services",
+  //     href: "#services",
+  //   },
     {
       label: "Get in touch",
       href: "#contact",
